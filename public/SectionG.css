@@ -1,0 +1,74 @@
+.Farm{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.MadeBy{
+    text-shadow: -5px -5px 10px white, -5px 5px 10px white, 5px -5px 10px white, 5px 5px 10px white;
+    color: black;
+    font-size: 30pt;
+}
+
+.SocialMedia{
+    margin-top: 2%;
+    text-shadow: -5px -5px 10px whitesmoke, -5px 5px 10px white, 5px -5px 10px whitesmoke, 5px 5px 10px white;
+    color: grey;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.SocialMedia a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Farm{
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+        opacity: 0.5;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        overflow: hidden;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    
+    .MadeBy{
+        text-shadow: -5px -5px 10px white, -5px 5px 10px white, 5px -5px 10px white, 5px 5px 10px white;
+        color: black;
+        font-size: 20pt;
+    }
+    
+    .SocialMedia{
+        margin-top: 2%;
+        text-shadow: -5px -5px 10px whitesmoke, -5px 5px 10px white, 5px -5px 10px whitesmoke, 5px 5px 10px white;
+        color: grey;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    
+    .SocialMedia a{
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}

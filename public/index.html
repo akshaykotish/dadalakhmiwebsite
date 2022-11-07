@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="./Night.css">
+    <link rel="Stylesheet" href="./Dada.css">
+    <link rel="Stylesheet" href="./MusicPlayer.css">
+    <link rel="Stylesheet" href="./Parllax.css">
+    <link rel="Stylesheet" href="./SectionB.css">
+    <link rel="Stylesheet" href="./SectionC.css">
+    <link rel="Stylesheet" href="./SectionE.css">
+    <link rel="Stylesheet" href="./SectionF.css">
+    <link rel="Stylesheet" href="./SectionG.css">
+</head>
+<body onscroll="OnScroll()">
+    <div id="SectionA" class="SectionA">
+    <div class="global-universe">      
+    <div class="planet">
+        <div class="wrap">
+          <div class="earth"></div>
+        </div>
+        <div class="mask"></div>
+      </div>
+      
+      <div class="sun">
+        <div class="wrap">
+          <div class="inner"></div>
+        </div>
+        <div class="mask"></div>
+      </div>
+      
+      <div class="p p-1"></div>
+      <div class="p p-2"></div>
+      <div class="p p-3"></div>
+    </div>
+    <div class="Dada">
+        <div class="Statue">
+
+        </div>
+    </div>
+
+    <div class="MusicPlayer">
+        <div class="Col1">
+            <div class="Title" id="Title">
+                #DadaLakhmi- Brahmgyani - Shyam Sharma–#Uttamsingh –#YashpalSharma- #Ravindra Rajawat - Anhad Studio
+            </div>
+        </div>
+        <div class="Col2">
+            <div class="Track">
+                <div class="CurrentPosition" id="CurrentPosition">
+                    
+                </div>
+            </div>
+            <div class="Buttons">
+                <div id="backward" class="Button" onclick="PreviousRagni()">
+                     <img src="./Assets/backward.png" width="100%" height="100%"/>
+                </div>
+                <div id="play" class="Button" onclick="ContinueRagni()">
+                    <img src="./Assets/play.png" width="100%" height="100%"/>
+                </div>
+                <div id="pause" class="Button" onclick="PauseRagni()">
+                    <img src="./Assets/pause.png" width="100%" height="100%"/>
+                </div>
+                <div id="forward" class="Button" onclick="NextRagni()">     
+                    <img src="./Assets/forward.png" width="100%" height="100%"/>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <div id="SectionC" class="SectionC">
+        <div class="SCTxt">
+            Now wait is over, <a href="https://www.youtube.com/watch?v=ecjJ6a2r-68&ab_channel=DadaLakhmi-TheFilm-Official">#DadaLakhmi</a> Now in Cinemas.
+        </div>
+        <div id="player"></div>
+    </div>
+    <div id="SectionG" class="SectionG">
+        <div class="Farm">
+            <div class="MadeBy">
+                 Website Produdly Made by <b>Akshay Kotish & Co.</b>
+            </div>
+            <div class="SocialMedia">
+              <a href="https://www.instagram.com/akshay_kotish/">Instagram.com/akshay_kotish</a>  | <a href="https://www.facebook.com/akotish/">facebook.com/akotish</a> | <a href="https://github.com/akshaykotish">Github.com/akshaykotish</a> | <a href="mailto:akshaykotish@gmail.com">akshaykotish@gmail.com</a>
+            </div>
+        </div>
+    </div>
+    <div id="SectionB" class="SectionB">
+                <div class="SurajChand">
+                "जब तक सूरज चाँद रहेगा, </br>दादा तेरा नाम रहेगा"
+                </br></br>
+                <span class="Naman">शत् शत् नमन</span>
+            </br>
+                सूर्यकवि पंडित लखमी चंद शर्मा
+            </br>
+                <span class="AK">- Akshay Kotish</span>
+            </div>
+    </div>
+    <div id="SectionD" class="SectionD">
+
+    </div>
+    <div id="SectionE" class="SectionE">
+        <div class="Poster">
+
+        </div>
+        <div class="Songs">
+            <h1>Dada Ki Ragni</h1>
+            <div class="Song" onclick="PlayRagni(1)">
+                <div class="Cover">
+                    <img src="https://i.ytimg.com/vi/ecjJ6a2r-68/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFYoUjAP&rs=AOn4CLCtJRegslAjrsnnDMbRcPZb-wgwAA" width="100%" height="100%">
+                </div>
+                <div class="Content">
+                    #DadaLakhmi- Brahmgyani - Shyam Sharma–#Uttamsingh –#YashpalSharma- #Ravindra Rajawat - Anhad Studio
+                </div>
+            </div>
+            <div class="Song" onclick="PlayRagni(2)">
+                <div class="Cover">
+                    <img src="https://i.ytimg.com/vi/15oX2cWHva8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAMnh3v4V9yt2WpsV9REKwWqJvV8Q" width="100%" height="100%">
+                </div>
+                <div class="Content">
+                    #DadaLakhmi - Lakh Chaurasi - Shyam Sharma | Prem Dehati |#yashpal | #uttamsingh |Ravindra Rajawat
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="SectionF" class="SectionF">
+        <div class="AboutMovie">
+            <div class="DadaLakhmi">
+                Dada Lakhmi
+            </div>
+            <div class="BestFilm">
+                68th National Award Winner - Best Haryanvi Film
+            </div>
+            <div class="Te">
+                Based on true life events of <b>Dada Lakhmi Chand</b>
+                <br><br><br>
+                Acted & Directed by <b>Yashpal Sharma</b><br>
+                Produced by <b>Ravindra Singh Rajawat</b><br>
+            </div>
+            <div class="Te">
+                <b>Now available on your near by Cinemas</b>
+                <p>
+                    <b>◉ Faridabad</b> - SRS Edilgo Miraj
+                    <b>◉ Gurugram</b> - Inox-Sector 4 Railway Road
+                    <b>◉ Rohtak</b> - Satyan R N Cinema
+                    <b>◉ Gohana</b> - Cine Time
+                    <b>◉ Jind</b> - Cine Time
+                    <b>◉ Panipat</b> - Fun Mittal
+                    <b>◉ Karnal</b> - Movie Time
+                    <b>◉ Bhiwani</b> - Sun City
+                    <b>◉ Hissar</b> - Sun City
+                    <b>◉ Sirsa</b> - OHM
+                    <b>◉ Kundali</b> - Mukta
+                    <b>◉ Kaithal</b> - Cine Square Padma
+                    <b>◉ Rewari</b> -BMG Mall
+                    <b>◉ Chandigarh</b> - Cine Polish Jagat
+                    <b>◉ Bhadurgarh</b> - Movie Time
+                    <b>◉ Jagadhri</b> - Dimple Cinema
+                    <b>◉ Narnaul</b> - Inox
+                    <b>◉ Dwarka</b> - Vegas Mall
+                    <b>◉ Sonipat</b> - Miraj Cinema Screen
+                    <b>◉ Kurukshetra</b> - Divine Cine Polish
+                    <b>◉ Delhi</b> - Cinepolls Janak Cinema
+                    <b>◉ Fatehabad</b> - RK Place
+                </p>
+            </div>
+            <div class="BookNow">
+                Book Now
+            </div>
+        </div>
+    </div>
+    <div id="SectionH" class="SectionH">
+
+    </div>
+    <script  src="./Night.js"></script>
+    <script src="./Dada.js"></script>
+    <script src="./MusicPlayer.js"></script>
+    <script src="./Parllax.js"></script>
+    <script src="./YoutubeAPI.js"></script>
+
+    <div class="MusicPlayerHide">
+        <div id="musicplayer"></div>
+    </div>
+</body>
+</html>

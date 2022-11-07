@@ -1,0 +1,105 @@
+
+
+.SectionE .Poster{
+    width: 40%;
+    height: 60%;
+    background-color: black;
+    background-image: url('./Assets/Poster.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+
+
+
+.SectionE .Songs{   
+    width: 30%;
+    height: 80%;
+    margin: 5%;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: center;
+    align-content: flex-start;
+    align-content: center;
+    overflow: hidden;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: auto;
+    color: white;
+    opacity: 0.7;
+    text-align: left;
+}
+
+.SectionE .Songs .Song{
+    width: 100%;
+    height: 15vh;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-content: flex-start;
+    overflow: hidden;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+
+.SectionE .Songs .Song .Cover{
+    width: 30%;
+    height: 100%;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    overflow: hidden;
+}
+
+.SectionE .Songs .Song .Content{
+    width: 60%;
+    height: 100%;
+    color: black;
+    font-size: 12pt;
+    text-align: left;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+.SectionE .Poster{
+    margin-top: 10%;
+    width: 80%;
+    height: 30%;
+}
+
+
+
+.SectionE .Songs{   
+    width: 100%;
+    height: 60%;
+}
+
+.SectionE .Songs .Song{
+    width: 100%;
+    height: 15vh;
+}
+
+.SectionE .Songs .Song .Cover{
+    width: 30%;
+    height: 100%;
+}
+
+.SectionE .Songs .Song .Content{
+    font-size: 10pt;
+    
+}
+}

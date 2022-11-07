@@ -1,0 +1,135 @@
+.MusicPlayer
+{
+    position: absolute;
+    bottom: 5vw;
+    left: 25vw;
+    right: 25vw;
+    width: 50vw;
+    height: 15vh;
+    background-color: white;
+    opacity: .6;
+    border-radius: 5px;
+    box-shadow:  5px 0px 10px black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: auto;
+    flex-direction: row;
+}
+
+.MusicPlayer .Col1{
+    padding-left: 5%;
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: center;
+    overflow: hidden;
+    flex-direction: row;
+}
+
+.MusicPlayer .Col1 .Title{
+    color: black;
+}
+
+.MusicPlayer .Col2{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: auto;
+    flex-direction: column;
+}
+
+.MusicPlayer .Col2 .Track{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 1vh;
+    background-color: grey;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+.MusicPlayer .Col2 .Track .CurrentPosition{
+    width: 2vh;
+    height: 2vh;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 10%;
+}
+
+
+.MusicPlayer .Col2 .Buttons{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    width: 90%;
+    height: 40%;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+    flex-direction: row ;
+    background-color: white;
+}
+
+
+.MusicPlayer .Col2 .Buttons .Button{
+    margin: 5%; 
+    width: 5vh;
+    height: 5vh;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.MusicPlayerHide{
+    position: absolute;
+    visibility: hidden;
+}
+
+#pause{
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .MusicPlayer
+    {
+        position: absolute;
+        bottom: 1vw;
+        left: 1vw;
+        right: 1vw;
+        width: 98vw;
+        height: 20vh;
+        background-color: white;
+        opacity: .6;
+    }
+    
+    .MusicPlayer .Col1{
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 90%;
+        height: 50%;
+    }
+    
+    
+    .MusicPlayer .Col2{
+        width: 90%;
+        height: 50%;
+    }    
+}

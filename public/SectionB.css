@@ -1,0 +1,28 @@
+.SurajChand{
+    top: 0;
+    font-size: 40pt;
+    color: white;
+    background-color: black;
+    padding: 5%;
+    opacity: 0.5;
+    text-shadow: -5px -5px 10px black, -5px 5px 10px black, 5px -5px 10px black, 5px 5px 10px black;
+    border-radius: 5px;
+}
+
+.SurajChand .Naman{
+    font-size:30pt;
+    color: yellow;
+}
+
+.SurajChand .AK{
+    font-size: 10pt;
+}
+@media only screen and (max-width: 600px) {
+    .SurajChand{
+        font-size: 20pt;
+    }
+    
+    .SurajChand .Naman{
+        font-size:15pt;
+    }
+}

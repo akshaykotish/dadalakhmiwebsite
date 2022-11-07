@@ -1,0 +1,102 @@
+.SectionF .AboutMovie{
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    opacity: 0.6;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+    flex-direction: column;
+    text-align: center;
+}
+
+.SectionF .AboutMovie .DadaLakhmi{
+    font-size: 60pt;
+    color: black;
+    font-weight: bolder;
+    text-shadow: -5px -5px 10px white, -5px 5px 10px white, 5px -5px 10px white, 5px 5px 10px white;
+}
+
+.SectionF .AboutMovie .BestFilm{
+    font-size: 20pt;
+    color: grey;
+    font-weight: 900;
+}
+
+.SectionF .AboutMovie .Te{
+    font-size: 10pt;
+    color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+
+
+.SectionF .AboutMovie .BookNow{
+    margin: 2%;
+    width: 15vw;
+    height: 8vh;
+    background-color: black;
+    color: white;
+    text-shadow: -5px -5px 10px white, -5px 5px 10px white, 5px -5px 10px white, 5px 5px 10px white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .SectionF .AboutMovie{
+        width: 90%;
+        height: 90%;
+        background-color: white;
+        opacity: 0.6;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        overflow: hidden;
+        flex-direction: row;
+        text-align: center;
+    }
+    
+    .SectionF .AboutMovie .DadaLakhmi{
+        width: 100%;
+        font-size: 30pt;
+    }
+    
+    .SectionF .AboutMovie .BestFilm{
+        font-size: 9pt;
+        color: black;
+    }
+    
+    .SectionF .AboutMovie .Te{
+        font-size: 11pt;
+        color: black;
+        margin-top: 15%;
+    }
+    
+    
+    
+    .SectionF .AboutMovie .BookNow{
+        margin: 2%;
+        width: 50vw;
+        height: 8vh;
+    }
+}
